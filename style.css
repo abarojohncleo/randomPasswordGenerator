@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black
+}
+
+/* Typography */
+@font-face {
+    font-family: Karla;
+    src: url(fonts/Karla/static/Karla-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+h1 {
+    font-size: 60px;
+    font-family:Karla ;
+    color: black;
+    margin: 0;
+}
+
+h1 strong {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: Inter;
+    margin: 5px;
+    color: black
+}
+
+/* layout */
+main {
+    width: 600px;
+    margin: 100px auto;
+    background: #00a898;
+    padding: 50px 50px;
+    border-radius: 25px;
+
+}
+
+.toggles {
+    font-family: Inter;
+    color: white;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px;
+    font-family: Inter;
+    background: black;
+    border: none;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.generated-pass {
+    display: flex;
+    margin: 20px;
+}
+.generated-pass p{
+    width: 500px;
+    height: 25px;
+    margin: auto 5px;
+    padding: 5px 0px;
+    background:black;
+    color: white;
+    text-align: center;
+}
+
+#password_len {
+    margin: 0px 20px;
+    width: 220px;
+} 
+
+hr {
+    color: white;
+}
