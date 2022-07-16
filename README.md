@@ -7,4 +7,4 @@ It still needs improvement on the copy-on-click for generated password though.
 If you know and want to suggest it, leave a comment and I'll try my best to implement it.
 
 You can also view it live on this link:
-https://codepen.io/abarojohncleo/pen/zYRgOJm
+https://codepen.io/abarojohncleo/full/zYRgOJm
